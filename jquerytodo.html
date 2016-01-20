@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Nyawira ToDo</title>
+    <link rel="stylesheet" type="text/css" href="todo.css">
+</head>
+
+
+<body>
+
+<div class="task-list" id="pending">
+  <h3>What Are You Doing?</h3>
+  <!-- Sample task added manually to check look -->
+  <div class="todo-task">
+    <div class="task-header">ToDo List</div>
+    <div class="task-date">20/01/2016</div>
+    <div class="task-description">Add and Monitor your progress with your tasks! </div>
+  </div>
+</div>
+
+<div class="task-list" id="inProgress">
+  <h3>In Progress</h3>
+</div>
+
+<div class="task-list" id="completed">
+  <h3>Completed</h3>
+</div>
+
+<div class="task-list">
+  <h3>Yet To Start</h3>
+  <form id="todo-form">
+    <input type="text" placeholder="Title" />
+    <textarea placeholder="Descrtipion"></textarea>
+    <input type="text" placeholder="Due Date (dd/mm/yyyy)" />
+    <input type="button" class="btn btn-primary" value="Add Task" />
+  </form>
+
+  <input type="button" class="btn btn-primary" value="Clear Data" />
+
+ 
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
